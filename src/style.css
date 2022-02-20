@@ -19,6 +19,13 @@ body {
   color: #b0d2ec;
 }
 
+.icon {
+  height: 32px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 32px;
+}
+
 #bio {
   text-align: left;
 }
