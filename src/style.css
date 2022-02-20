@@ -7,6 +7,16 @@ body {
   text-align: center;
 }
 
+a:link, a:visited {
+  color: #8bb4f7;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #8bb4f7;
+  text-decoration: underline;
+}
+
 #pfp {
   border-radius: 50%;
   height: 200px;
@@ -16,7 +26,7 @@ body {
 }
 
 #title {
-  color: #b0d2ec;
+  color: #8bb4f7;
 }
 
 .icon {
@@ -28,4 +38,8 @@ body {
 
 #bio {
   text-align: left;
+}
+
+footer {
+  color: #8bb4f7;
 }
