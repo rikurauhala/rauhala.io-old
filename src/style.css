@@ -3,7 +3,7 @@ body {
   color: white;
   font-family: Arial, sans-serif;
   margin: auto;
-  max-width: 90%;
+  max-width: 80%;
   text-align: center;
 }
 
@@ -13,4 +13,12 @@ body {
   margin-bottom: 20px;
   margin-top: 100px;
   width: 200px;
+}
+
+#title {
+  color: #b0d2ec;
+}
+
+#bio {
+  text-align: left;
 }
