@@ -1,6 +1,6 @@
 # rauhala.io
 
-rauhala.io development / testing repository
+This repository contains the source code for my personal website
 
 ## Credits
 
