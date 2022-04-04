@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>Riku Rauhala | rauhala.io</title>
     <meta charset="utf-8">
@@ -8,16 +8,78 @@
     <link rel="icon" type="image/x-icon" href="icons/favicon.ico">
   </head>
   <body>
-    <img src="img/riku.jpg" title="Riku" alt="Profile picture" id="picture"> 
-    <h1>Riku Rauhala</h1>
-    <p id="title">Computer science student at University of Helsinki</p>
-    <a href="https://github.com/rikurauhala">
-      <img src="icons/gh.png" class="icon">
-    </a>
-    <a href="https://www.linkedin.com/in/rikurauhala/">
-      <img src="icons/li.png" class="icon">
-    </a>
-    <p>Hello there!</p>
-    <footer>rauhala.io | Riku Rauhala | 2022 | <a href="https://github.com/rikurauhala/rikurauhala.github.io">Source code</a></footer>
+    <div class="info">
+      <img src="img/riku.jpg" title="This is me!" alt="Profile picture" class="picture"> 
+      <h1>Riku Rauhala</h1>
+      <p class="title">Computer science student at University of Helsinki</p>
+      <p class="details">
+        <img src="icons/calendar.svg" title="Age" class="icon-info"> 26 |
+        <img src="icons/mars.svg" title="Gender" class="icon-info"> He/him |
+        <img src="icons/location.svg" title="Location" class="icon-info"> Finland
+      </p>
+      <a href="https://github.com/rikurauhala">
+        <img src="icons/github.svg" title="See my code on GitHub" class="icon-social">
+      </a>
+      <a href="https://www.linkedin.com/in/rikurauhala/">
+        <img src="icons/linkedin.svg" title="Connect with me on LinkedIn" class="icon-social">
+      </a>
+      <a href="mailto:riku[ät]rauhala.io">
+        <img src="icons/at.svg" title="Send me an email" class="icon-social">
+      </a>
+    </div>
+    <h2>About</h2>
+    <p>Hello there! My name is Riku.</p>
+    <h2>Projects</h2>
+    <p>
+      Here is a selection of projects I have worked on.
+      Click the name of the project to view the source code and documentation on GitHub.
+      <br>More projects will be added when they are ready to be published.
+    </p>
+    <div class="project">
+      <a href="https://github.com/rikurauhala/tj-bot">tj-bot</a>
+      <span class="year">2021</span>
+      <p>A Discord bot created with discord.py to remind your friend serving in the Finnish
+         military how many mornings they have left.</p>
+      <p class="tags">
+        <span class="tag python">● Python</span>
+      </p>
+    </div>
+    <div class="project">
+      <span>
+        <a href="https://github.com/rikurauhala/film-review-app">film-review-app</a>
+        <span class="demo">| <a href="https://rvr-fra.herokuapp.com/">Demo »</a></span>
+      </span>
+      <span class="year">2021</span>
+      <p>A web application for reading and writing film reviews.
+         Made using the Flask web framework and a PostgreSQL database.</p>
+      <p class="tags">
+        <span class="tag python">● Python</span>
+        <span class="tag sql">● SQL</span>
+        <span class="tag html">● HTML</span>
+        <span class="tag css">● CSS</span>
+      </p>
+    </div>
+    <div class="project">
+      <a href="https://github.com/rikurauhala/rikurauhala.github.io">rauhala.io</a>
+      <span class="year">2022</span>
+      <p>My personal home page on the internet. You are looking at it!</p>
+      <p class="tags">
+        <span class="tag html">● HTML</span>
+        <span class="tag css">● CSS</span>
+      </p>
+    </div>
+    <div class="project">
+      <a href="https://github.com/rikurauhala/pakettiseuranta">pakettiseuranta</a>
+      <span class="year">2020</span>
+      <p>A simple package tracking application made with Java and SQLite.</p>
+      <p class="tags">
+        <span class="tag java">● Java</span>
+        <span class="tag sql">● SQL</span>
+      </p>
+    </div>
+    <footer>
+      rauhala.io | Riku Rauhala | 2022 | 
+      <a href="https://github.com/rikurauhala/rikurauhala.github.io">Source code</a>
+    </footer>
   </body>
 </html>

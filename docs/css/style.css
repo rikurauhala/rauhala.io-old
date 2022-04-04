@@ -1,10 +1,15 @@
+/** General **/
+
 body {
   background-color: #05121c;
   color: white;
   font-family: Arial, sans-serif;
   margin: auto;
-  max-width: 80%;
-  text-align: center;
+  max-width: 95%;
+}
+
+a {
+  white-space: nowrap;
 }
 
 a:link, a:visited {
@@ -17,25 +22,123 @@ a:hover {
   text-decoration: underline;
 }
 
-#picture {
+/** Info section **/
+
+.info {
+  text-align: center;
+}
+
+.picture {
   border-radius: 50%;
   height: 200px;
-  margin-bottom: 20px;
-  margin-top: 100px;
+  margin: 50px 0 20px 0;
   width: 200px;
 }
 
-#title {
+.title {
   color: #8bb4f7;
 }
 
-.icon {
+.details {
+  color: lightgray;
+}
+
+.icon-info {
+  filter: invert();
+  height: 12px;
+  width: 12px;
+}
+
+.icon-social {
+  filter: invert();
   height: 32px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin: 0 10px 0 10px;
   width: 32px;
 }
 
+/** Project section **/
+
+.project {
+  border:#0f3552 1px solid;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0 10px 0;
+  padding: 15px;
+}
+
+.project::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.project a {
+  font-weight: bold;
+}
+
+.demo a {
+  color: #c9e043;
+}
+
+.year {
+  color: #8b859b;
+  padding: 5px 0 0 0;
+}
+
+/** Tags **/
+
+.tag {
+  border-radius: 15px;
+  font-size: small;
+  margin: 0 3px 0 0;
+  padding: 7px;
+}
+
+.tag.css {
+  border: #9b3bc8 2px solid;
+  color: #9b3bc8;
+}
+
+.tag.html {
+  border: #c8443b 2px solid;
+  color: #c8443b;
+}
+
+.tag.java {
+  border: #c8783b 2px solid;
+  color: #c8783b;
+}
+
+.tag.python {
+  border: #3b96dc 2px solid;
+  color: #3b96dc;
+}
+
+.tag.sql {
+  border: #3bc8c1 2px solid;
+  color: #3bc8c1;
+}
+
+/** Footer **/
+
 footer {
+  clear: left;
   color: #8bb4f7;
+  padding: 15px 0 20px 0;
+  text-align: center;
+}
+
+/** Desktop layout **/
+
+@media only screen and (min-width: 992px) {
+  body {
+    max-width: 60%;
+  }
+
+  .project {
+    float: left;
+    margin: 2px;
+    width: 43.2%;
+  }
 }
