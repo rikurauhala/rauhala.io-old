@@ -140,3 +140,13 @@ footer {
     max-width: 50%;
   }
 }
+
+/** 404 page **/
+
+.not-found {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
