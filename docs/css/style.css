@@ -118,6 +118,11 @@ a:hover {
   color: #c8783b;
 }
 
+.tag.javascript {
+  border: #c6c83b 2px solid;
+  color: #c6c83b;
+}
+
 .tag.python {
   border: #3b96dc 2px solid;
   color: #3b96dc;
