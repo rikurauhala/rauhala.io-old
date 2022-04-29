@@ -2,7 +2,7 @@
 
 body {
   background-color: #05121c;
-  color: white;
+  color: #fff;
   font-family: Arial, sans-serif;
   margin: auto;
   max-width: 95%;
@@ -71,6 +71,10 @@ a:hover {
   padding: 15px;
 }
 
+.secondary {
+  display: none;
+}
+
 .project::after {
   clear: both;
   content: "";
@@ -124,12 +128,32 @@ a:hover {
   color: #3bc8c1;
 }
 
+/** Button **/
+
+#button-container {
+  margin: 20px;
+  text-align: center;
+}
+
+#button {
+  background-color: #8bb4f7;
+  border: none;
+  border-radius: 5%;
+  color: #05121c;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+#button:hover {
+  background-color: #6f96d4;
+}
+
 /** Footer **/
 
 footer {
   clear: left;
   color: #8bb4f7;
-  padding: 15px 0 20px 0;
+  padding: 0 0 20px 0;
   text-align: center;
 }
 
