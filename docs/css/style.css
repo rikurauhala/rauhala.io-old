@@ -128,6 +128,11 @@ a:hover {
   color: #3b96dc;
 }
 
+.tag.shell {
+  border: #3bc847 2px solid;
+  color: #3bc847;
+}
+
 .tag.sql {
   border: #3bc8c1 2px solid;
   color: #3bc8c1;
