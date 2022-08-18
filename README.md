@@ -1,6 +1,6 @@
 ## About
 
-This repository contains the source code for my personal website
+No longer maintained. See [this repository](https://github.com/rikurauhala/rikurauhala.github.io) for the current version.
 
 ## Credits
 
